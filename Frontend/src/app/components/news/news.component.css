@@ -1,0 +1,41 @@
+ 
+.news-data{
+    background: var(--weather-container);
+    border-radius: 6px  ;
+    /* height: 400px; */
+
+    
+
+}
+.header-context{ 
+    opacity: 1;
+    padding: 5px;
+    padding-left: 18px;
+    border-radius: 6px 6px 0px 0px ;
+    position: relative;
+}
+.header-context::before{
+    content: "";
+    background: linear-gradient(-90deg ,rgba(255, 255, 255, 0.56) 0%, rgba(255, 255, 255, 0.5) 11.52%, rgba(255, 255, 255, 0.49) 12.78%, rgba(255, 255, 255, 0.104) 100%);
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 6px 6px 0px 0px ;
+
+}
+.header-context span{
+    color: var(--header-text);
+    z-index: 100;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.boxy{
+    height: 33vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}

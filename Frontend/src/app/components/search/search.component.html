@@ -1,0 +1,13 @@
+
+<div class="bg d-flex "  [ngStyle]="{'top':cls}" id="bg">
+    <div class="container d-flex justify-content-center flex-column align-items-center">
+        <div class="close"  (click)="close()"><i class="bi bi-x-lg"></i></div>
+        <div class="title">GEOZONE </div>
+        <p class="description">If you want to see the sunshine, <span>you have to weather the storm</span></p>
+        <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+            <input type="text" placeholder="Enter City Name" name="city" ngModel>
+            <input type="text" placeholder="Enter Country Code" name="country" ngModel>
+            <button type="submit"  >Search  </button>
+          </form>
+      </div>
+</div>

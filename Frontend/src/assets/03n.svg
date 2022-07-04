@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="740.372" height="732.881" viewBox="0 0 740.372 732.881">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9a0ff"/>
+      <stop offset="1" stop-color="#855aff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7397" data-name="Group 7397" transform="translate(-5033.198 -1884.017)">
+    <g id="Group_7331" data-name="Group 7331" transform="translate(3582.447 -1204.466)">
+      <g id="Group_7330" data-name="Group 7330">
+        <line id="Line_198" data-name="Line 198" transform="translate(1966.462 3346.583)" fill="none" stroke="#9b70ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity="0.3"/>
+        <line id="Line_199" data-name="Line 199" transform="translate(1945.342 3463.466)" fill="none" stroke="#9b70ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity="0.999"/>
+        <line id="Line_200" data-name="Line 200" transform="translate(1631.745 3270.995)" fill="none" stroke="#9b70ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity="0.999"/>
+        <line id="Line_201" data-name="Line 201" transform="translate(1538.553 3548.276)" fill="none" stroke="#9b70ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity="0.3"/>
+        <line id="Line_202" data-name="Line 202" transform="translate(1916.237 3659.181)" fill="none" stroke="#9b70ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity="0.3"/>
+        <line id="Line_203" data-name="Line 203" transform="translate(1611.381 3659.839)" fill="none" stroke="#9b70ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity="0.999"/>
+        <path id="Path_4984" data-name="Path 4984" d="M318.771,273.227a173.983,173.983,0,0,1-123.2,74.8C99.83,359.551,12.8,291.318,1.27,195.58A174.617,174.617,0,0,1,291.26,44.687a126.043,126.043,0,0,0,27.511,228.54Z" transform="translate(1550.507 3364.248) rotate(-19)" fill="url(#linear-gradient)"/>
+        <path id="Path_4986" data-name="Path 4986" d="M131.251,166.22c39.144,27.222,74.433,22.933,94.831,33.427,30.467,15.673,54.771-40.472,54.771-11.451,0,48.048-76.254,80.145-143.838,80.145S0,154.132,0,106.084C0,73.7,51.038,15.382,88.208.3,97.628-3.52,72.04,32.3,78.531,71.819,84.1,105.707,113.049,153.562,131.251,166.22Z" transform="translate(1734.872 3280.806) rotate(20)" fill="#7c37fd" opacity="0.945"/>
+      </g>
+    </g>
+  </g>
+</svg>

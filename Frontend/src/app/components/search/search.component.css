@@ -1,0 +1,96 @@
+.bg{
+    background: url('../../../assets/bg1.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    -webkit-font-smoothing: antialiased;
+    transition:all 1500ms ease;
+    left: 0;
+}
+.bg::after{
+    content: "";
+    background:rgba(15, 15, 15, 0.283);
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.title{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 10rem;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -45px;
+    margin-top: -45px;
+}
+.description{
+    
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.description span{
+    color: rgb(255, 255, 255);
+}
+
+form input{
+    background: none;
+    border:none;
+    border-bottom: 2px solid #fff;
+    width: 300px; 
+    padding:10px;
+    margin-right: 60px;
+    outline: none;
+}
+form input::placeholder{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+   
+
+}
+form input[type="text"]{
+    color: #fff;
+    font-size: 1.2rem;
+}
+form button{
+    color: #fff;
+    font-size: 1.2rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form button{
+    background-color: unset;
+    border: #fff solid 2px;
+    padding: 10px 30px ;
+}
+form button[type="button"]{
+    color: #fff;
+}
+.close i{
+    color: rgba(255, 255, 255, 0.804);
+    font-size: 2rem;
+
+}
+.close{
+    position: absolute;
+    right: 70px;
+    top: 20px;
+}

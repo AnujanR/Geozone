@@ -1,0 +1,34 @@
+nav{
+    background-color:var(--primary-color) ;
+    height: 100vh;
+    width: 68px;
+    position: fixed;
+    padding: 10px;
+}
+.navbar .active-icon{
+    background: linear-gradient(#00cc83 0%, rgba(0, 204, 131, 0.31) 100%);
+}
+.nav-icon{
+    padding: 13px;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+.navbar{
+    height: 100vh;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.search .nav-icon:hover{
+    background: linear-gradient(#00cc83 0%, rgba(0, 204, 131, 0.31) 100%);
+    padding: 12px;
+    border-radius: 30px;
+
+}
+.nav-icon i{
+    font-size: 1.6rem;
+    color:#bbb ;
+}
+.nav-icon img{
+    width: 100%;
+}

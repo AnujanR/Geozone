@@ -1,0 +1,12 @@
+<div class="news-data">
+    <div class="header-context">
+        <span  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1000" >Latest Weather News</span>
+    </div>
+    <div class="boxy " data-aos="fadezoom-in" data-aos-easing="ease-in-back" data-aos-duration="1100" >
+        <div *ngFor="let data of jsondata" >
+           <app-news-single titlens={{data.Title}}  description={{data.Description}} link={{data.Link}} source={{data.SourceID}} date={{data.PubDate}} image={{data.ImageURL}}></app-news-single>
+
+        </div>
+    </div>
+</div>
+ 

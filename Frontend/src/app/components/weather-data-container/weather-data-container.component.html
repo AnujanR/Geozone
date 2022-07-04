@@ -1,0 +1,63 @@
+
+<!-- <div class="container">
+    <div class="row"> -->
+        <!-- <div class="col-9 "> -->
+            <div class="weather-data"  >
+                <div class="header-context" >
+                    <span data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1000" >Weather Data</span>
+                </div>
+                <div class="d-flex p-3 boxy head" >
+                    <swiper
+                    [slidesPerView]="'auto'"
+
+                    [spaceBetween]="0"
+                    [loop]="true"
+                    [autoplay]="{
+                        delay: 2500,
+                        disableOnInteraction: false
+                    }"
+                   [observeParents]="true"
+                    [navigation]="true" 
+  [parallax]="true"
+                    [pagination]="{
+                    clickable: true
+                    }"
+                    class="mySwiper"
+                    
+                  >
+                    <ng-template swiperSlide ><app-weather-data-flex  [titleWeather]="'humidity'" [dataValueWeather]=humidity [dataIconWeather]="'../../../assets/humidty.svg'"  ></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'Pressure'" [dataValueWeather]=pressure [dataIconWeather]="'../../../assets/pressure.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'wind speed'" [dataValueWeather]=windspeed [dataIconWeather]="'../../../assets/wind.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'temperature'" [dataValueWeather]=temperature [dataIconWeather]="'../../../assets/temp.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'wind Direction'" [dataValueWeather]=winddirection [dataIconWeather]="'../../../assets/direction.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'Temp-Max'" [dataValueWeather]=tempmax [dataIconWeather]="'../../../assets/maxtemp.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'sunset'" [dataValueWeather]=sunset [dataIconWeather]="'../../../assets/sunset.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'Temp-Min'" [dataValueWeather]=tempmin [dataIconWeather]="'../../../assets/mintemp.svg'"></app-weather-data-flex>
+</ng-template
+                    ><ng-template swiperSlide><app-weather-data-flex [titleWeather]="'sunrise'" [dataValueWeather]=sunrise [dataIconWeather]="'../../../assets/sunrise.svg'"></app-weather-data-flex>
+</ng-template>
+
+
+                  </swiper>
+                
+                </div>
+
+        </div>
+
+        <!-- </div> -->
+
+
+        
+
+
+        
+
+    <!-- </div> -->
+<!-- </div> -->

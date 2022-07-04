@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+:root{
+    --primary-color:#292D34;
+    --main-color:#191D26;
+    --weather-container:#292D34;
+    --header-text:#ffffff;
+    --data-color:#E4E4E4;
+    --data-flex-card-bg:#22272D;
+    --maindata-text:#E5E5E5;
+ 
+}
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background: var(--main-color);
+    font-family: 'Source Sans ';
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1153px !important;
+}}
+.swiper-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color:rgba(227, 228, 228, 0.494);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, #00cc859b),
+									   color-stop(0.72, rgba(4, 120, 80, 0.912)));
+}
+

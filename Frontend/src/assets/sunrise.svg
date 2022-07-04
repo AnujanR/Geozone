@@ -1,0 +1,16 @@
+<svg id="Group_7408" data-name="Group 7408" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="770.421" height="768.571" viewBox="0 0 770.421 768.571">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.343" y2="0.783" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#30d298"/>
+      <stop offset="0" stop-color="#30d197"/>
+      <stop offset="1" stop-color="#18694c"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_494" data-name="Rectangle 494" width="770.421" height="768.571" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7407" data-name="Group 7407" clip-path="url(#clip-path)">
+    <path id="Path_5000" data-name="Path 5000" d="M0,768.571V701.407H136.578l47.828-116.248L86.932,490.482,140,437.71c31.716,33.974,63.267,67.769,91.568,98.083l120.081-49.744V351.537h66.79V485.746l116.852,47.977,94.826-96.166,51.22,52.181-96,93.325,48.713,116.746H770.42v68.762Zm554.9-69.124c-11.633-82.326-90.9-142.81-178.852-139.368-93.629,3.664-159.309,86.446-158.717,139.368Z" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Path_5001" data-name="Path 5001" d="M420.159,0V137.564h96.488L381.978,269.517,253.9,139.752h95.7V0Z" transform="translate(770.542 269.517) rotate(180)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

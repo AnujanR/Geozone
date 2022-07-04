@@ -1,0 +1,11 @@
+<div class="weather-data">
+    <div class="header-context">
+        <span data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1000" >Forecast of Next 5 Days</span>
+    </div>
+    <div class="boxy "  >
+        <div *ngFor="let data of jsondata"  >
+            <app-next5-single class="single-ele" class="maincontxt"   icon={{data.Icon}} humidity={{data.Humidity}} day={{data.Date}}  temperature={{data.Temperature-273.15|number}}></app-next5-single>
+        </div>
+    </div>
+</div> 
+ 

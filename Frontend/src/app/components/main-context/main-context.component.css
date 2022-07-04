@@ -1,0 +1,122 @@
+
+.main-panel{
+    height: 50vh;
+    width: 75%;
+    /* height: 100%; */
+    position: relative;
+    /* border-radius: 10px 0px 0px 10px ; */
+    background: var(--weather-container);
+    padding-right: 0px !important;
+}
+.main-panel-context{
+    position: relative;
+    /* height: 50vh; */
+    width: 35%;
+    /* border-radius: 0px 10px 10px 0px ; */
+    background: var(--weather-container);
+    z-index: -2;
+    padding: 8px 20px;
+    
+}
+.main-panel-context::after{
+    content: "";
+    background: linear-gradient(0deg,#00cc83 0%, rgba(0, 204, 131, 0.35) 100%, rgba(0, 204, 131, 0) 100%);
+    opacity: 0.39;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    /* border-radius: 0px 10px 10px 0px ; */
+
+}
+.main-panel-context .content{
+    position: relative;
+    width: 100%;
+}
+.main-panel-context .content img{
+    position: relative;
+    width: 48%;
+
+}
+.main-panel-context .content h1 {
+    color: var(--maindata-text);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 4px;
+    font-size: 2.4em;
+    margin-bottom: 5px;
+    white-space: nowrap; 
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.main-panel-context .content h1 span{
+    font-weight: 200;
+    white-space: wrap; 
+    /* margin-left: 1px; */
+    text-overflow: unset;
+}
+.main-panel-context .content h3{
+    color: var(--maindata-text);
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.main-panel-context .content p{
+    color: var(--maindata-text);
+    font-size:0.9rem;
+    line-height: 1.3;
+}
+.main-panel-context hr{
+    color: aliceblue
+    ;
+}
+.content .temp {
+    /* white-space: nowrap;  */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:-10px ;
+    width: 100%;
+}
+.content .temp .ex span,.content .temp div{
+    /* display: flex; */
+    font-size: 1.2rem;
+    color: var(--maindata-text);
+    font-weight: 200;
+    text-transform: uppercase;
+    
+    letter-spacing: 0.5px;
+    
+}
+.content .temp .ex p{
+    font-size: 1rem;
+    word-wrap: break-word;
+    margin-bottom: -3px;
+    line-height: 16px;
+
+    
+}
+.content .temp span{
+    color: var(--maindata-text);
+    font-size: 3.6rem;
+    font-weight: 200;
+    font-family: 'open sans';
+    
+}
+.content .temp .ex div{
+    margin-top: 5px;
+}
+.content .temp .ex {
+    margin-left: 10px;
+}
+
+hr{
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,45 @@
+.flex-container .climate img{
+    width: 48px;
+}
+
+.climate .date .day{
+    color: var(--maindata-text);
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.date{
+    line-height: 1rem;
+    text-align: center;
+}
+.date{
+    margin-left:24px;
+}
+.climate .date .month{
+    color: var(--data-color);
+    font-size:0.9rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.bg{
+    position: relative;
+    padding: 7px 8px;
+    z-index: 2;
+    margin: 8px 0px;
+}
+.bg::before{
+    content: "";
+    background: linear-gradient(90deg,#00cc83 0%, rgba(0, 204, 131, 0.35) 100%, rgba(0, 204, 131, 0) 100%);
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    
+
+    
+}
